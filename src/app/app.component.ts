@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { RippleModule } from 'primeng/ripple';
+import { ButtonModule } from 'primeng/button';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'pipesApp';
+  public title = 'gera zenteno';
 }
